@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="shutdown.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="shutdown"/>
+        <CursorPos X="3" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="50" Column="1" TopLine="11"/>
+      </Position1>
+      <Position2>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="19" Column="14" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="1" Column="25" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="53" Column="3" TopLine="32"/>
+      </Position4>
+      <Position5>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="51" Column="1" TopLine="40"/>
+      </Position5>
+      <Position6>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="8" Column="3" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="10" Column="3" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="18" Column="3" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="90" Column="15" TopLine="59"/>
+      </Position9>
+      <Position10>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="78" Column="1" TopLine="58"/>
+      </Position10>
+      <Position11>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="49" Column="48" TopLine="28"/>
+      </Position11>
+      <Position12>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="7" Column="1" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="shutdown.lpr"/>
+        <Caret Line="9" Column="1" TopLine="1"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+    </SearchPaths>
+    <Parsing>
+      <Style Value="1"/>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <SmallerCode Value="True"/>
+      <Optimizations>
+        <UncertainOptimizations Value="True"/>
+        <OptimizationLevel Value="3"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <LinkSmart Value="True"/>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

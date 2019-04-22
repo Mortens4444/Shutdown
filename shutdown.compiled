@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\2.2.4\bin\i386-win32\fpc.exe" Date="993895412"/>
+  <Params Value="-Rintel -MObjFPC -Scgi -CX -Os3 -OoUNCERTAIN -gl -XX -vewnhi -l -FiC:\Pascal\Shutdown\ -FuC:\Pascal\Shutdown\ -Fu. -FEC:\Pascal\Shutdown\ -oshutdown.exe shutdown.lpr"/>
+</CONFIG>
